@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #ffc500;
+  --secondary-color: #eaae00;
+  --third-color: #00c0cc;
+  --third-color-hover: #02acb8;
+  --dark-color: #302f2f;
+}
+
+/* 
+  - Fonte Roboto. 
+  - Pode utilizar Bootstrap. 
+  - Empregar media-queries para no mínimo a versão mobile. 
+  - Dois arquivos. (Um com a página inicial, o segundo com o formulário (+ header e footer))
+  - 
+*/
