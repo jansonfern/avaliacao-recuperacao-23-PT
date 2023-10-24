@@ -5,38 +5,115 @@
   --third-color-hover: #02acb8;
   --dark-color: #302f2f;
 }
-.yellow-background{
-  background-color: #ffc500;
-}
-.img{
-  align-items: right;
-}
-.card-img{
-  display: flex;
-  justify-content: center;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-.text{
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  height: 100px;
+}
+.text ul li {
+  display: inline-block;
+  margin-left: 20px;
+  color: white;
+}
+
+.yellow-background {
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card-img {
+  text-align: center;
+  color: azure;
+  width: 300px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.card-img img {
+  width: 100%;
+  height: auto;
+}
+.text-2 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.lorem {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 5px;
+  color: white;
+}
+
+.dog-img {
   text-align: right;
 }
-.text-2{
-  justify-content: left;
-  font-size: 20px;
+
+.button {
+  background-color: var(--third-color);
+  margin-top: 5px;
+  display: inline;
 }
-.button{
-  background-color: #02acb8;
+
+.button-2 {
+  background-color: var(--primary-color);
+  display: inline;
+  margin-top: 5px;
 }
-.button-2{
-  background-color: #ffc500;
+.button,
+.button-2 {
+
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: 2px solid white;
+  color: white;
 }
-.text-3{
-  justify-content: center;
+
+.button-container {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.text-3 {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.container {
+  display: flex;
   align-items: center;
+  padding: 20px;
 }
-/* 
-  - Fonte Roboto. 
-  - Header e main ocupam juntos 100vh
-  - Dois arquivos. (Um com a página inicial, o segundo com o formulário (+ header e footer))
-  - Criar vários arquivs css (um para cada componente - header (1 arquivo), main e seções (1 arquivo) e footer (1 arquivo))
-  - 
-*/
+
+.text-container {
+  padding: 20px;
+}
+
+.orange-background {
+  background-color: var(--secondary-color);
+}
+.card-2{
+  margin-top: 20px;
+  width:300px;
+}
